@@ -1,0 +1,999 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rgb",
+				"rgba()\tbackground"
+			],
+			[
+				"background",
+				"background\tproperty"
+			],
+			[
+				"pos",
+				"pos-f\tposition: fixed;"
+			],
+			[
+				"search",
+				"searchFilter"
+			],
+			[
+				"json",
+				"JSON_parse\t( json: string ): any JSON"
+			],
+			[
+				"Json",
+				"JSON_parse\t( json: string ): any JSON"
+			],
+			[
+				"fil",
+				"filter\t.filter()"
+			],
+			[
+				"sear",
+				"searchFilter"
+			],
+			[
+				"bank",
+				"bank_id"
+			],
+			[
+				"conso",
+				"console_log"
+			],
+			[
+				"ch",
+				"check"
+			],
+			[
+				"prop",
+				"prop-check"
+			],
+			[
+				"grid-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"background-",
+				"background-clip\tproperty"
+			],
+			[
+				"oran",
+				"orange-bg"
+			],
+			[
+				"fle",
+				"flex-start\tjustify-content"
+			],
+			[
+				"not",
+				"not-found"
+			],
+			[
+				"flex",
+				"flex\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"objec",
+				"object-fit\tproperty"
+			],
+			[
+				"fw",
+				"fw-n\tfont-weight: normal;"
+			],
+			[
+				"flx",
+				"flex-grow\tproperty"
+			],
+			[
+				"bdt",
+				"border-top"
+			],
+			[
+				"i",
+				"initial\tmax-width"
+			],
+			[
+				"gird",
+				"grid-template-columns"
+			],
+			[
+				"pro-",
+				"pro-overview"
+			],
+			[
+				"col",
+				"column-reverse\tflex-direction"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"linear",
+				"linear-gradient"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"end",
+				"flex-end\tjustify-content"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"margn",
+				"margin-left\tproperty"
+			],
+			[
+				"wh",
+				"whatsapp"
+			],
+			[
+				"check",
+				"checkall"
+			],
+			[
+				"che",
+				"checkall"
+			],
+			[
+				"respon",
+				"responsive-img"
+			],
+			[
+				"ora",
+				"orange-bg"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"border-r",
+				"border-right-color\tproperty"
+			],
+			[
+				"border-bo",
+				"border-bottom-color\tproperty"
+			],
+			[
+				"jc",
+				"jc-fs\tjustify-content: flex-start;"
+			],
+			[
+				"ro",
+				"row\tflex-direction"
+			],
+			[
+				"grid",
+				"grid-template-columns"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"ov-a",
+				"font-variant-alternates\tproperty"
+			],
+			[
+				"contac",
+				"contact-items"
+			],
+			[
+				"addres",
+				"address-con"
+			],
+			[
+				"to-e",
+				"text-overflow\tproperty"
+			],
+			[
+				"colu",
+				"column\tflex-direction"
+			],
+			[
+				"img",
+				"img-fluid"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"bar",
+				"bar-bottom"
+			],
+			[
+				"transi",
+				"transition\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"orange",
+				"orange-dark"
+			],
+			[
+				"ease",
+				"ease-out"
+			],
+			[
+				"min",
+				"minlength"
+			],
+			[
+				"see",
+				"seekerContact"
+			],
+			[
+				"sca",
+				"scaleX()\ttransform"
+			],
+			[
+				"trans",
+				"transform-origin\tproperty"
+			],
+			[
+				"ov-x",
+				"ovx-h\toverflow-x: hidden;"
+			],
+			[
+				"border-b",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"border-le",
+				"border-bottom-left-radius\tproperty"
+			],
+			[
+				"row",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"butt",
+				"button-wrap"
+			],
+			[
+				"conten",
+				"content-wrapper"
+			],
+			[
+				"bbt",
+				"border-bottom\tproperty"
+			],
+			[
+				"brt",
+				"border-top\tproperty"
+			],
+			[
+				"orang",
+				"orange-bg"
+			],
+			[
+				"home",
+				"homeloan-capture"
+			],
+			[
+				"butto",
+				"button"
+			],
+			[
+				"sub",
+				"submitHandler"
+			],
+			[
+				"to",
+				"tov\ttext-overflow: ${ellipsis};"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"acco",
+				"accordion-item"
+			],
+			[
+				"call",
+				"callback-form"
+			],
+			[
+				"bor",
+				"border-color\tproperty"
+			],
+			[
+				"acc",
+				"accordion-item"
+			],
+			[
+				"no",
+				"nowrap\twhite-space"
+			],
+			[
+				"ov",
+				"ovx-a\toverflow-x: auto;"
+			],
+			[
+				"deal",
+				"deal-item"
+			],
+			[
+				"but",
+				"button"
+			],
+			[
+				"border-t",
+				"border-top-width\tproperty"
+			],
+			[
+				"emi-r",
+				"emi-result-box"
+			],
+			[
+				"deal-ite",
+				"deal-item-alt"
+			],
+			[
+				"accent",
+				"accent-light"
+			],
+			[
+				"button",
+				"button-wrap"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"sp",
+				"space-evenly\tjustify-content"
+			],
+			[
+				"tran",
+				"translateX()\ttransform"
+			],
+			[
+				"tr",
+				"transform\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"robo",
+				"robotolight"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"ip",
+				"input"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"grey",
+				"light-grey"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"modal",
+				"modal-trigger"
+			],
+			[
+				"pos-",
+				"pos-a\tposition: absolute;"
+			],
+			[
+				"body",
+				"body-text"
+			],
+			[
+				"z",
+				"zoom-in\tcursor"
+			],
+			[
+				"cur",
+				"cur-ha\tcursor: hand;"
+			],
+			[
+				"bg",
+				"bgi\tbackground-image: url(${0});"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"custom",
+				"custom-dropdown"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"whs",
+				"whs-nw\twhite-space: nowrap;"
+			],
+			[
+				"input",
+				"input-wrap"
+			],
+			[
+				"obj",
+				"object-fit\tproperty"
+			],
+			[
+				"mx",
+				"max-width\tproperty"
+			],
+			[
+				"d",
+				"d\tdisplay: ${1:block};"
+			],
+			[
+				"rg",
+				"rgba()\tbackground-color"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"tra",
+				"translateY()\ttransform"
+			],
+			[
+				"p-",
+				"pos-a\tposition: absolute;"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"base",
+				"base-unit"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"bdd",
+				"border-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "connection.php",
+			"settings":
+			{
+				"buffer_size": 129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/index.html",
+			"settings":
+			{
+				"buffer_size": 8977,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"for",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"codef",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ht",
+				"Snippet: QUnit HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"server",
+				"SFTP: Browse Server…"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/ifsc",
+		"/C/xampp/htdocs/ifsc/api",
+		"/C/xampp/htdocs/ifsc/frontend"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/ifsc/frontend/infinity.svg",
+		"/C/xampp/htdocs/ifsc/frontend/loading.svg",
+		"/C/xampp/htdocs/ifsc/api/branches.php",
+		"/C/xampp/htdocs/ifsc/branches.php",
+		"/C/xampp/htdocs/ifsc/api/index.php",
+		"/C/xampp/htdocs/ifsc/frontend/index.html",
+		"/C/xampp/htdocs/ifsc/index.php",
+		"/C/xampp/htdocs/ifsc/frontend/banks.vue",
+		"/C/xampp/htdocs/bikes/index.php",
+		"/C/xampp/htdocs/ifsc/css/bulma.min.css",
+		"/C/xampp/htdocs/bikes/connection.php",
+		"/C/xampp/htdocs/ifsc/brand.php",
+		"/C/xampp/htdocs/ifsc/branch.php",
+		"/C/xampp/htdocs/ifsc/header.php",
+		"/C/xampp/htdocs/ifsc/contact-us.php",
+		"/C/xampp/htdocs/ifsc/privacy-policy.php",
+		"/C/xampp/htdocs/ifsc/about-us.php",
+		"/C/xampp/htdocs/ifsc/footer.php",
+		"/C/xampp/htdocs/ifsc/css/main.css",
+		"/C/xampp/htdocs/ifsc/css/colors.css",
+		"/C/xampp/htdocs/ifsc/connection.php",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/plugin.php",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/core-integration.php",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/wp-api.js",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/class-wp-rest-users-controller.php",
+		"/E/website/desktop/image-management/index.html",
+		"/E/website/desktop/image-management/image-tool.js",
+		"/E/website/fonts/line-awesome-font-awesome.css",
+		"/E/website/index.html",
+		"/E/website/desktop/home-buying-guide/js/script.js",
+		"/E/website/desktop/home-buying-guide/css/styles.less",
+		"/E/website/desktop/home-buying-guide/index.html",
+		"/E/website/desktop/home-buying-guide/css/styles.css",
+		"/E/website/desktop/about/about.css",
+		"/E/website/Home-Seeker-tracking/Assisted-Buying-backend/admin_pages/image-management.html",
+		"/E/website/desktop/image-management/js/app.min.js",
+		"/E/website/desktop/contact/index.html",
+		"/E/website/desktop/project-detail/not-found.html",
+		"/E/website/desktop/project-detail/not-found.less",
+		"/E/website/desktop/project-detail/not-found.css",
+		"/E/website/desktop/project-detail/index.html",
+		"/E/website/desktop/project-detail/pro-detail.less",
+		"/E/website/desktop/project-detail/pro-detail.css",
+		"/E/website/desktop/home-loan/home-loan.css",
+		"/E/website/desktop/home-loan/index.html",
+		"/E/website/desktop/home-loan/home-loan.less",
+		"/E/website/desktop/home-loan/masthead.css",
+		"/E/website/desktop/home-loan/masthead.less",
+		"/E/website/desktop/home-loan/images/percent.svg",
+		"/E/website/desktop/home-loan/images/rupee.svg",
+		"/E/website/desktop/home-loan/images/percentage.svg",
+		"/E/website/desktop/home-loan/images/percent.xml",
+		"/E/website/desktop/project-detail/js/magnifik.js",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/magnifik-master/index.html",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/magnifik-master/examples/test-theme.css",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/magnifik-master/examples/index.html",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/magnifik-master/examples/main.js",
+		"/C/Users/MYFM.DBNOIMYFM023/Documents/index.html",
+		"/C/Users/MYFM.DBNOIMYFM023/Documents/demo.html",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/zoom-master/zoom-master/js/directive.js",
+		"/E/website/desktop/property-detail/index.html",
+		"/E/website/svg/003-cancel.svg",
+		"/E/website/mobile/listing/listing.less",
+		"/E/website/mobile/whatsapp/success.html",
+		"/E/website/mobile/whatsapp/index.html",
+		"/E/website/mobile/whatsapp/whatsapp.less",
+		"/E/website/Home-Seeker-tracking/Assisted-Buying-backend/assets/global/plugins/amcharts/amcharts/funnel.js",
+		"/E/website/desktop/project-detail/project-detail.html",
+		"/E/website/desktop/home-loan/homeloan.js",
+		"/E/website/mobile/_variables.less",
+		"/E/website/mobile/_mixins.less",
+		"/E/website/mobile/whatsapp/whatsapp.css",
+		"/E/website/desktop/about/about.less",
+		"/E/website/desktop/about/index.html",
+		"/E/website/desktop/about/images/app.svg",
+		"/E/website/mobile/_override.less",
+		"/E/website/mobile/emagazine/article.less",
+		"/E/website/desktop/luxury/index.html",
+		"/E/website/desktop/luxury/js/custom.js",
+		"/E/website/desktop/photo-guidelines/index.html",
+		"/E/website/desktop/contact/contact.less",
+		"/E/website/desktop/photo guidelines/js/main.js",
+		"/E/website/desktop/photo guidelines/index.html",
+		"/E/website/desktop/photo guidelines/css/style.css",
+		"/E/website/desktop/contact/images/phone.svg",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/result (2).svg",
+		"/E/website/desktop/contact/images/feedback.svg",
+		"/E/website/desktop/contact/images/contact-us.svg",
+		"/E/website/desktop/contact/images/call.svg",
+		"/E/website/desktop/contact/images/conversation.svg",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/optimised.svg",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/result.svg",
+		"/E/website/desktop/contact/images/email.svg",
+		"/E/website/desktop/contact/contact.css",
+		"/E/website/desktop/contactfrom/test.html",
+		"/E/website/desktop/contact/index2.html",
+		"/E/website/mobile/listing/index.html",
+		"/E/website/desktop/listing/index.html",
+		"/E/website/desktop/listing/listing.less",
+		"/E/website/desktop/PYP-DK/css/new-project-details.css",
+		"/E/website/desktop/_buttons.less",
+		"/E/website/design/microsite/home-zone-package-files-v1/homezone-html-files/full-width/color2/js/owl.js",
+		"/E/website/desktop/builder/index2.html",
+		"/E/website/desktop/listing/property-list.css",
+		"/E/website/desktop/builder/index.html",
+		"/E/website/desktop/hdfc/assets/hdfc.css",
+		"/E/website/desktop/hdfc/index-old.html",
+		"/E/website/desktop/home-loan/list.html",
+		"/E/website/desktop/home-loan/prototype/index.html",
+		"/E/Downloads/main.js",
+		"/E/website/mobile/mobile/index.html",
+		"/E/website/design/microsite/themeforest-6nYXXhTm-sopnovilla-single-property-html-template/bootstrap3-version/sopnovilla-html-tf-v1/documentation/assets/css/bootstrap.css",
+		"/E/website/desktop/property-detail/index-old.html",
+		"/E/website/desktop/listing/listing.css",
+		"/E/website/design/multi seller/enquiry-form.css",
+		"/E/website/desktop/_variables.less",
+		"/E/website/desktop/_mixins.less",
+		"/E/server/sftp-config.json",
+		"/C/Users/MYFM.DBNOIMYFM023/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/config",
+		"/E/website/desktop/guidelines/_variable.less",
+		"/E/website/desktop/guidelines/_mixin.less",
+		"/E/website/desktop/guidelines/buttons.less",
+		"/E/website/desktop/guidelines/buttons.html",
+		"/E/website/desktop/home/buyer-assistance-trigger.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/E/website/mobile/plan/index.html",
+		"/E/website/desktop/agent/css/agent-list.less",
+		"/E/website/mobile/agent/agent-list/css/agent-list-mobile.less"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"loading",
+			"filtered",
+			"64",
+			"branches",
+			"article",
+			"banks",
+			"branchList",
+			"branches",
+			"bank",
+			"app",
+			"error",
+			"template",
+			"router-link",
+			"run"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "connection.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								12
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "frontend/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8977,
+						"regions":
+						{
+							"col_0000007F":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										724,
+										739
+									]
+								],
+								"scope": "col_0000007F"
+							},
+							"col_0000007F_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_0000007F_circle.png",
+								"regions":
+								[
+									[
+										624,
+										624
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								3533,
+								3533
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1527.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 138.0
+	},
+	"pinned_build_system": "",
+	"project": "ifsclookup.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"icomoon",
+				"desktop\\builder\\assets\\icomoon.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
