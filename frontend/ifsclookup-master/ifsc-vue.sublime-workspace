@@ -1,0 +1,1218 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"le",
+				"length\t: unsigned long Window"
+			],
+			[
+				"seti",
+				"setItem\t( key: DOMString, value: DOMString ): void Storage"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"pos",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"backgr",
+				"background\tproperty"
+			],
+			[
+				"ch",
+				"check"
+			],
+			[
+				"prop",
+				"prop-check"
+			],
+			[
+				"grid-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"background-",
+				"background-clip\tproperty"
+			],
+			[
+				"oran",
+				"orange-bg"
+			],
+			[
+				"fle",
+				"flex-start\tjustify-content"
+			],
+			[
+				"not",
+				"not-found"
+			],
+			[
+				"flex",
+				"flex\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"objec",
+				"object-fit\tproperty"
+			],
+			[
+				"fw",
+				"fw-n\tfont-weight: normal;"
+			],
+			[
+				"flx",
+				"flex-grow\tproperty"
+			],
+			[
+				"bdt",
+				"border-top"
+			],
+			[
+				"i",
+				"initial\tmax-width"
+			],
+			[
+				"gird",
+				"grid-template-columns"
+			],
+			[
+				"pro-",
+				"pro-overview"
+			],
+			[
+				"col",
+				"column-reverse\tflex-direction"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"linear",
+				"linear-gradient"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"end",
+				"flex-end\tjustify-content"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"margn",
+				"margin-left\tproperty"
+			],
+			[
+				"wh",
+				"whatsapp"
+			],
+			[
+				"check",
+				"checkall"
+			],
+			[
+				"che",
+				"checkall"
+			],
+			[
+				"respon",
+				"responsive-img"
+			],
+			[
+				"ora",
+				"orange-bg"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"border-r",
+				"border-right-color\tproperty"
+			],
+			[
+				"border-bo",
+				"border-bottom-color\tproperty"
+			],
+			[
+				"jc",
+				"jc-fs\tjustify-content: flex-start;"
+			],
+			[
+				"ro",
+				"row\tflex-direction"
+			],
+			[
+				"grid",
+				"grid-template-columns"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"ov-a",
+				"font-variant-alternates\tproperty"
+			],
+			[
+				"contac",
+				"contact-items"
+			],
+			[
+				"addres",
+				"address-con"
+			],
+			[
+				"to-e",
+				"text-overflow\tproperty"
+			],
+			[
+				"colu",
+				"column\tflex-direction"
+			],
+			[
+				"img",
+				"img-fluid"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"bar",
+				"bar-bottom"
+			],
+			[
+				"transi",
+				"transition\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"orange",
+				"orange-dark"
+			],
+			[
+				"ease",
+				"ease-out"
+			],
+			[
+				"see",
+				"seekerContact"
+			],
+			[
+				"sca",
+				"scaleX()\ttransform"
+			],
+			[
+				"trans",
+				"transform-origin\tproperty"
+			],
+			[
+				"ov-x",
+				"ovx-h\toverflow-x: hidden;"
+			],
+			[
+				"border-b",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"border-le",
+				"border-bottom-left-radius\tproperty"
+			],
+			[
+				"row",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"butt",
+				"button-wrap"
+			],
+			[
+				"conten",
+				"content-wrapper"
+			],
+			[
+				"bbt",
+				"border-bottom\tproperty"
+			],
+			[
+				"brt",
+				"border-top\tproperty"
+			],
+			[
+				"orang",
+				"orange-bg"
+			],
+			[
+				"home",
+				"homeloan-capture"
+			],
+			[
+				"butto",
+				"button"
+			],
+			[
+				"sub",
+				"submitHandler"
+			],
+			[
+				"to",
+				"tov\ttext-overflow: ${ellipsis};"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"acco",
+				"accordion-item"
+			],
+			[
+				"call",
+				"callback-form"
+			],
+			[
+				"bor",
+				"border-color\tproperty"
+			],
+			[
+				"acc",
+				"accordion-item"
+			],
+			[
+				"no",
+				"nowrap\twhite-space"
+			],
+			[
+				"ov",
+				"ovx-a\toverflow-x: auto;"
+			],
+			[
+				"deal",
+				"deal-item"
+			],
+			[
+				"but",
+				"button"
+			],
+			[
+				"border-t",
+				"border-top-width\tproperty"
+			],
+			[
+				"emi-r",
+				"emi-result-box"
+			],
+			[
+				"deal-ite",
+				"deal-item-alt"
+			],
+			[
+				"accent",
+				"accent-light"
+			],
+			[
+				"button",
+				"button-wrap"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"sp",
+				"space-evenly\tjustify-content"
+			],
+			[
+				"tran",
+				"translateX()\ttransform"
+			],
+			[
+				"tr",
+				"transform\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"robo",
+				"robotolight"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"ip",
+				"input"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"grey",
+				"light-grey"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"modal",
+				"modal-trigger"
+			],
+			[
+				"pos-",
+				"pos-a\tposition: absolute;"
+			],
+			[
+				"body",
+				"body-text"
+			],
+			[
+				"z",
+				"zoom-in\tcursor"
+			],
+			[
+				"cur",
+				"cur-ha\tcursor: hand;"
+			],
+			[
+				"bg",
+				"bgi\tbackground-image: url(${0});"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"custom",
+				"custom-dropdown"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"whs",
+				"whs-nw\twhite-space: nowrap;"
+			],
+			[
+				"input",
+				"input-wrap"
+			],
+			[
+				"obj",
+				"object-fit\tproperty"
+			],
+			[
+				"mx",
+				"max-width\tproperty"
+			],
+			[
+				"d",
+				"d\tdisplay: ${1:block};"
+			],
+			[
+				"rg",
+				"rgba()\tbackground-color"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"tra",
+				"translateY()\ttransform"
+			],
+			[
+				"p-",
+				"pos-a\tposition: absolute;"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"base",
+				"base-unit"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"bdd",
+				"border-radius"
+			],
+			[
+				"h",
+				"h\theight"
+			],
+			[
+				"grid-r",
+				"grid-row-gap\tproperty"
+			],
+			[
+				"grid-c",
+				"grid-column-gap\tproperty"
+			],
+			[
+				"gr",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"bx",
+				"box-shadow"
+			],
+			[
+				"brs",
+				"border-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/App.vue",
+			"settings":
+			{
+				"buffer_size": 1438,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main.js",
+			"settings":
+			{
+				"buffer_size": 605,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/views/Home.vue",
+			"settings":
+			{
+				"buffer_size": 3395,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/views/Branch.vue",
+			"settings":
+			{
+				"buffer_size": 6003,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"codef",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Snippet: ht",
+				"Snippet: QUnit HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"server",
+				"SFTP: Browse Server…"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/app/ifsc",
+		"/D/app/ifsc/src",
+		"/D/app/ifsc/src/components",
+		"/D/app/ifsc/src/router",
+		"/D/app/ifsc/src/views"
+	],
+	"file_history":
+	[
+		"/D/app/ifsc/src/main.js",
+		"/D/app/ifsc/vue.config.js",
+		"/D/app/ifsc/package.json",
+		"/D/app/ifsc/babel.config.js",
+		"/E/website/mobile/mobile/header-ad.html",
+		"/D/app/digimela-multi/.gitignore.txt",
+		"/C/xampp/htdocs/digimela/index.php",
+		"/C/xampp/htdocs/digimela/js/custom.js",
+		"/C/xampp/htdocs/digimela/css/responsive.css",
+		"/C/xampp/htdocs/digimela/css/style.css",
+		"/E/website/index.html",
+		"/C/xampp/htdocs/ifsc/connection.php",
+		"/C/xampp/htdocs/ifsc/brand.php",
+		"/C/xampp/htdocs/ifsc/index.php",
+		"/C/xampp/htdocs/ifsc/branches.php",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/plugin.php",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/core-integration.php",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/wp-api.js",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/class-wp-rest-users-controller.php",
+		"/E/website/desktop/image-management/index.html",
+		"/E/website/desktop/image-management/image-tool.js",
+		"/E/website/fonts/line-awesome-font-awesome.css",
+		"/E/website/desktop/home-buying-guide/js/script.js",
+		"/E/website/desktop/home-buying-guide/css/styles.less",
+		"/E/website/desktop/home-buying-guide/index.html",
+		"/E/website/desktop/home-buying-guide/css/styles.css",
+		"/E/website/desktop/about/about.css",
+		"/E/website/Home-Seeker-tracking/Assisted-Buying-backend/admin_pages/image-management.html",
+		"/E/website/desktop/image-management/js/app.min.js",
+		"/E/website/desktop/contact/index.html",
+		"/E/website/desktop/project-detail/not-found.html",
+		"/E/website/desktop/project-detail/not-found.less",
+		"/E/website/desktop/project-detail/not-found.css",
+		"/E/website/desktop/project-detail/index.html",
+		"/E/website/desktop/project-detail/pro-detail.less",
+		"/E/website/desktop/project-detail/pro-detail.css",
+		"/E/website/desktop/home-loan/home-loan.css",
+		"/E/website/desktop/home-loan/index.html",
+		"/E/website/desktop/home-loan/home-loan.less",
+		"/E/website/desktop/home-loan/masthead.css",
+		"/E/website/desktop/home-loan/masthead.less",
+		"/E/website/desktop/home-loan/images/percent.svg",
+		"/E/website/desktop/home-loan/images/rupee.svg",
+		"/E/website/desktop/home-loan/images/percentage.svg",
+		"/E/website/desktop/home-loan/images/percent.xml",
+		"/E/website/desktop/project-detail/js/magnifik.js",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/magnifik-master/index.html",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/magnifik-master/examples/test-theme.css",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/magnifik-master/examples/index.html",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/magnifik-master/examples/main.js",
+		"/C/Users/MYFM.DBNOIMYFM023/Documents/index.html",
+		"/C/Users/MYFM.DBNOIMYFM023/Documents/demo.html",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/zoom-master/zoom-master/js/directive.js",
+		"/E/website/desktop/property-detail/index.html",
+		"/E/website/svg/003-cancel.svg",
+		"/E/website/mobile/listing/listing.less",
+		"/E/website/mobile/whatsapp/success.html",
+		"/E/website/mobile/whatsapp/index.html",
+		"/E/website/mobile/whatsapp/whatsapp.less",
+		"/E/website/Home-Seeker-tracking/Assisted-Buying-backend/assets/global/plugins/amcharts/amcharts/funnel.js",
+		"/E/website/desktop/project-detail/project-detail.html",
+		"/E/website/desktop/home-loan/homeloan.js",
+		"/E/website/mobile/_variables.less",
+		"/E/website/mobile/_mixins.less",
+		"/E/website/mobile/whatsapp/whatsapp.css",
+		"/E/website/desktop/about/about.less",
+		"/E/website/desktop/about/index.html",
+		"/E/website/desktop/about/images/app.svg",
+		"/E/website/mobile/_override.less",
+		"/E/website/mobile/emagazine/article.less",
+		"/E/website/desktop/luxury/index.html",
+		"/E/website/desktop/luxury/js/custom.js",
+		"/E/website/desktop/photo-guidelines/index.html",
+		"/E/website/desktop/contact/contact.less",
+		"/E/website/desktop/photo guidelines/js/main.js",
+		"/E/website/desktop/photo guidelines/index.html",
+		"/E/website/desktop/photo guidelines/css/style.css",
+		"/E/website/desktop/contact/images/phone.svg",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/result (2).svg",
+		"/E/website/desktop/contact/images/feedback.svg",
+		"/E/website/desktop/contact/images/contact-us.svg",
+		"/E/website/desktop/contact/images/call.svg",
+		"/E/website/desktop/contact/images/conversation.svg",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/optimised.svg",
+		"/C/Users/MYFM.DBNOIMYFM023/Downloads/result.svg",
+		"/E/website/desktop/contact/images/email.svg",
+		"/E/website/desktop/contact/contact.css",
+		"/E/website/desktop/contactfrom/test.html",
+		"/E/website/desktop/contact/index2.html",
+		"/E/website/mobile/listing/index.html",
+		"/E/website/desktop/listing/index.html",
+		"/E/website/desktop/listing/listing.less",
+		"/E/website/desktop/PYP-DK/css/new-project-details.css",
+		"/E/website/desktop/_buttons.less",
+		"/E/website/design/microsite/home-zone-package-files-v1/homezone-html-files/full-width/color2/js/owl.js",
+		"/E/website/desktop/builder/index2.html",
+		"/E/website/desktop/listing/property-list.css",
+		"/E/website/desktop/builder/index.html",
+		"/E/website/desktop/hdfc/assets/hdfc.css",
+		"/E/website/desktop/hdfc/index-old.html",
+		"/E/website/desktop/home-loan/list.html",
+		"/E/website/desktop/home-loan/prototype/index.html",
+		"/E/Downloads/main.js",
+		"/E/website/mobile/mobile/index.html",
+		"/E/website/design/microsite/themeforest-6nYXXhTm-sopnovilla-single-property-html-template/bootstrap3-version/sopnovilla-html-tf-v1/documentation/assets/css/bootstrap.css",
+		"/E/website/desktop/property-detail/index-old.html",
+		"/E/website/desktop/listing/listing.css",
+		"/E/website/design/multi seller/enquiry-form.css",
+		"/E/website/desktop/_variables.less",
+		"/E/website/desktop/_mixins.less",
+		"/E/server/sftp-config.json",
+		"/C/Users/MYFM.DBNOIMYFM023/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/config",
+		"/E/website/desktop/guidelines/_variable.less",
+		"/E/website/desktop/guidelines/_mixin.less",
+		"/E/website/desktop/guidelines/buttons.less",
+		"/E/website/desktop/guidelines/buttons.html",
+		"/E/website/desktop/home/buyer-assistance-trigger.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/E/website/mobile/plan/index.html",
+		"/E/website/desktop/agent/css/agent-list.less",
+		"/E/website/mobile/agent/agent-list/css/agent-list-mobile.less",
+		"/E/website/mobile/agent/agent-list/index.html",
+		"/E/website/desktop/expo/desktop.html",
+		"/E/website/desktop/guidelines/amnities/new2.html",
+		"/E/website/desktop/agent/css/agent-list.css",
+		"/D/WinNMP/WWW/lessphp/test1.php",
+		"/E/website/mobile/agent/agent-list/css/agent-list-mobile.css.map",
+		"/E/website/mobile/agent/agent-list/css/agent-list-mobile.css"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$store"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/App.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1438,
+						"regions":
+						{
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										53,
+										58
+									],
+									[
+										743,
+										748
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										23,
+										23
+									],
+									[
+										679,
+										679
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/views/Home.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3395,
+						"regions":
+						{
+							"col_14141406":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3360,
+										3383
+									]
+								],
+								"scope": "col_14141406"
+							},
+							"col_14141406_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_14141406_circle.png",
+								"regions":
+								[
+									[
+										3344,
+										3344
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_333333FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										876,
+										880
+									],
+									[
+										1414,
+										1418
+									]
+								],
+								"scope": "col_333333FF"
+							},
+							"col_333333FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_333333FF_circle.png",
+								"regions":
+								[
+									[
+										691,
+										691
+									],
+									[
+										1228,
+										1228
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFC0CBFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										357,
+										361
+									]
+								],
+								"scope": "col_FFC0CBFF"
+							},
+							"col_FFC0CBFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFC0CBFF_circle.png",
+								"regions":
+								[
+									[
+										318,
+										318
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								3013,
+								3013
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1047.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/views/Branch.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6003,
+						"regions":
+						{
+							"col_808080FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1455,
+										1459
+									]
+								],
+								"scope": "col_808080FF"
+							},
+							"col_808080FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_808080FF_circle.png",
+								"regions":
+								[
+									[
+										1391,
+										1391
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFF00FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2014,
+										2020
+									],
+									[
+										2293,
+										2299
+									]
+								],
+								"scope": "col_FFFF00FF"
+							},
+							"col_FFFF00FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFF00FF_circle.png",
+								"regions":
+								[
+									[
+										1929,
+										1929
+									],
+									[
+										2208,
+										2208
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								3838,
+								3838
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1507.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 138.0
+	},
+	"pinned_build_system": "",
+	"project": "ifsc-vue.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"icomoon",
+				"desktop\\builder\\assets\\icomoon.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

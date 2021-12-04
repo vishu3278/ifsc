@@ -531,8 +531,16 @@
 			"file": "frontend/index.html",
 			"settings":
 			{
-				"buffer_size": 8977,
+				"buffer_size": 10242,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/branch.php",
+			"settings":
+			{
+				"buffer_size": 972,
 				"line_ending": "Windows"
 			}
 		}
@@ -549,16 +557,16 @@
 		"selected_items":
 		[
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"Snippet: ",
 				"Snippet: html"
 			],
 			[
 				"for",
 				"CodeFormatter: Format as PHP Syntax"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"format",
@@ -629,12 +637,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/ifsc",
-		"/C/xampp/htdocs/ifsc/api",
-		"/C/xampp/htdocs/ifsc/frontend"
+		"/D/htdocs/ifsc",
+		"/D/htdocs/ifsc/api"
 	],
 	"file_history":
 	[
+		"/E/xampp/htdocs/ifsc/vue/index.html",
+		"/E/xampp/htdocs/ifsc/vue/dist/css/chunk-vendors.da2ad8ef.css",
+		"/E/xampp/htdocs/ifsc/vue/dist/js/app.8abd4e32.js",
+		"/E/xampp/htdocs/ifsc/vue/dist/css/app.a12132b3.css",
 		"/C/xampp/htdocs/ifsc/frontend/infinity.svg",
 		"/C/xampp/htdocs/ifsc/frontend/loading.svg",
 		"/C/xampp/htdocs/ifsc/api/branches.php",
@@ -758,15 +769,11 @@
 		"/E/website/desktop/guidelines/_mixin.less",
 		"/E/website/desktop/guidelines/buttons.less",
 		"/E/website/desktop/guidelines/buttons.html",
-		"/E/website/desktop/home/buyer-assistance-trigger.html",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/E/website/mobile/plan/index.html",
-		"/E/website/desktop/agent/css/agent-list.less",
-		"/E/website/mobile/agent/agent-list/css/agent-list-mobile.less"
+		"/E/website/desktop/home/buyer-assistance-trigger.html"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -780,6 +787,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"logo",
 			"loading",
 			"filtered",
 			"64",
@@ -811,7 +819,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -842,7 +850,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -851,40 +859,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8977,
+						"buffer_size": 10242,
 						"regions":
 						{
-							"col_0000007F":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										724,
-										739
-									]
-								],
-								"scope": "col_0000007F"
-							},
-							"col_0000007F_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_0000007F_circle.png",
-								"regions":
-								[
-									[
-										624,
-										624
-									]
-								],
-								"scope": "col_gutter"
-							}
 						},
 						"selection":
 						[
 							[
-								3533,
-								3533
+								0,
+								0
 							]
 						],
 						"settings":
@@ -897,7 +880,36 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1527.0,
+						"translation.y": 1669.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "api/branch.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -908,7 +920,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -949,7 +961,7 @@
 	"project": "ifsclookup.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":

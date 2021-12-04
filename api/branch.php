@@ -1,26 +1,28 @@
-<?php
-	include("./header.php");
-
-	$branch_id = mysqli_real_escape_string($conn, str_replace('-', ' ', $_GET['branch_id']));
-	$bank_name = str_replace('-', ' ', mysqli_real_escape_string($conn, $_GET['bank_name']));
-
-	$result = mysqli_query($conn, "SET NAMES utf8mb4");
-	$result = mysqli_query($conn, "SELECT * FROM data WHERE md5(id)='$branch_id'");
-	$run = mysqli_fetch_array($result, MYSQLI_ASSOC);
-
-	$title = "$run[name] $run[adr1] IFSC Code, MICR, Contact Number, Address";
-	
+<?php 
+	header("Access-Control-Allow-Origin: *");
+	require_once("../connection.php");
 ?>
+<?php
+	if ($_GET['bank_id'] && $_GET['state']) {
+		$state = str_replace('-', ' ', mysqli_real_escape_string($conn, $_GET['state']));
+		// $city = str_replace('-', ' ', mysqli_real_escape_string($conn, $_GET['city']));
 
-<div class="box">
-	<h2><?php echo $title; ?></h2>
-	<table>
-		<tr><th>Bank Name</th> <td style='font-weight: bold;'><a href='branches.php?bank_name=<?php echo str_replace(' ', '-', $run['name']); ?>'><?php echo $run['name']; ?></a></td></tr>
-		<tr><th>IFSC Code</th> <td style='font-weight: bold; text-decoration: underline;'><?php echo $run['ifsc']; ?></td></tr>
-		<tr><th>MICR Code</th> <td><?php echo $run['micr']; ?></td></tr>
-		<tr><th>Contact</th> <td><?php echo $run['contact']; ?></td></tr>
-		<tr><th>Adress 1</th> <td><textarea style='width:200px; height: 150px; resize: none;'><?php echo "$run[adr1],\n$run[adr2],\n$run[adr3],\n$run[adr4],\n$run[adr5]"; ?></textarea></td></tr>
-	</table>
+		$result = mysqli_query($conn, "SET NAMES utf8mb4");
+		/*$result = mysqli_query($conn, "SELECT * FROM `data` WHERE `bank_id` = '{$_GET['bank_id']}'");*/
+		$result2 = mysqli_query($conn, "SELECT * FROM `data` WHERE `bank_id` = '{$_GET['bank_id']}' AND `state` = '{$_GET['state']}'
+		 -- AND `city` = '{$_GET['city']}' ORDER BY `city`
+		 ");
 
-</div>
-<?php include("./footer.php"); ?>
+		$response['count'] = $result2->num_rows;
+		while ($row = mysqli_fetch_array($result2, MYSQLI_ASSOC)) {
+			$response['banks'][] = $row;
+		}
+		echo json_encode($response);
+	}else{
+		echo json_encode($response['count']=0, $response['branches']="Wrong input");
+	}
+
+	// $result->free();
+	$result2->free();
+	$conn->close();
+?>

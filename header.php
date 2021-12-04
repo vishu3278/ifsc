@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo SITE_NAME ?>css/colors.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo SITE_NAME ?>css/main.css">
 		<title><?php echo $title; ?></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 <div class="top">
@@ -35,4 +36,5 @@ echo "<br>";
 echo $_SERVER['HTTP_USER_AGENT'];
 echo "<br>";
 echo $_SERVER['SCRIPT_NAME'];
+echo $_SERVER['REQUEST_URI'];
 */ ?>

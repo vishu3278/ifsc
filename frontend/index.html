@@ -10,12 +10,48 @@
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <style type="text/css">
-        .loading { position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 999; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
-        .loading svg { background: none transparent; }
+    .loading {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loading svg {
+        background: none transparent;
+    }
     </style>
 </head>
 
 <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="../images/logo.png" alt="logo">
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item">
+                    Home
+                </a>
+                <a class="navbar-item">
+                    Banks
+                </a>
+            </div>
+        </div>
+    </nav>
     <section class="hero is-primary">
         <div class="hero-body">
             <div class="container">
@@ -30,9 +66,7 @@
     </section>
     <section class="section">
         <div class="container " id="app">
-            
             <router-view></router-view>
-            
         </div>
     </section>
     <footer class="footer">
@@ -44,7 +78,6 @@
     </footer>
 </body>
 <script type="text/javascript">
-
 /*const message = Vue.component('message', {
     props: ['show', 'msg'],
     template: `<div id="message" >
@@ -54,112 +87,112 @@
         </div>`
 });*/
 const branchList = Vue.component('branch-list', {
-  data: function () {
-    return {
-        title: "Branch List",
-        branches: [
-            { id: 1, name: "Bank of India" },
-            { id: 2, name: "State Bank of India" }
-        ],
-        loading: false,
-        error: {},
-        img: "https://loremflickr.com/48/48?random="
-    }
-  },
-  created:function() {
-    this.loading = true;
-    axios.get('../api/branches.php?bank_id=' + this.$route.params.bankid)
-        .then((response) => {
-            console.log(response.data.count);
-            // this.errror = response.data.count;
-            if (response.data.count > 0) {
-                this.error.type = "is-success";
-                this.error.msg = response.data.count + " branches found for " + response.data.name;
-                this.branches = response.data.branches;
-            } else {
-                this.error = "No records found";
-            }
-        })
-        .catch((error)=> {
-            console.log(error);
-        })
-        .then(()=> {
-            this.loading = false;
-            console.log('always executed');
-        });
-  },
-  template: `<div id="banks"><div class="loading" v-show="loading"><img src="infinity.svg" /></div>
+    data: function() {
+        return {
+            title: "Branch List",
+            branches: [
+                { id: 1, name: "Bank of India" },
+                { id: 2, name: "State Bank of India" }
+            ],
+            loading: false,
+            error: {},
+            img: "https://loremflickr.com/48/48?random="
+        }
+    },
+    created: function() {
+        this.loading = true;
+        axios.get('../api/branches.php?bank_id=' + this.$route.params.bankid)
+            .then((response) => {
+                console.log(response.data.count);
+                // this.errror = response.data.count;
+                if (response.data.count > 0) {
+                    this.error.type = "is-success";
+                    this.error.msg = response.data.count + " branches found for " + response.data.name;
+                    this.branches = response.data.branches;
+                } else {
+                    this.error = "No records found";
+                }
+            })
+            .catch((error) => {
+                console.log(error);
+            })
+            .then(() => {
+                this.loading = false;
+                console.log('always executed');
+            });
+    },
+    template: `<div id="banks"><div class="loading" v-show="loading"><img src="infinity.svg" /></div>
               <div class="message " v-bind:class="error.type"><div class="message-body" v-text="error.msg"></div></div>
                 <div class="box" v-for="(branch, index) in branches" :key="index">
-            <article class="media" >
-              <figure class="media-left">
-                <p class="image is-48x48" ><img src="https://via.placeholder.com/50?text=demo" v-bind:alt="branch.id" /></p>
-              </figure>
-              <div class="media-content">
-                <div class="content">
-                <p class="has-text-primary-dark"><strong class="has-text-black" v-text="branch.adr4"></strong> - {{branch.adr5}}</p>
-                <p class="has-text-info">{{branch.contact}}</p>
-                <div class="field is-grouped is-grouped-multiline">
-                    <div class="control">
-                    <div v-show="branch.ifsc" class="tags has-addons"><span class="tag">IFSC</span><span class="tag is-info">{{branch.ifsc}}</span></div>
-                    </div>
-                    <div class="control">
-                    <div v-show="branch.micr" class="tags has-addons"><span class="tag">MICR</span><span class="tag is-primary">{{branch.micr}}</span></div>
-                    </div>
-                </div>
-                </div>
-                </div>
-            </article>
+                    <article class="media" >
+                      <figure class="media-left">
+                        <p class="image is-48x48" ><img src="https://via.placeholder.com/50?text=demo" v-bind:alt="branch.id" /></p>
+                      </figure>
+                      <div class="media-content">
+                        <div class="content">
+                        <p class="has-text-primary-dark"><strong class="has-text-black" v-text="branch.state"></strong> - {{branch.adr5}}</p>
+                        <p class="has-text-info">{{branch.contact}}</p>
+                        <div class="field is-grouped is-grouped-multiline">
+                            <div class="control">
+                            <div v-show="branch.ifsc" class="tags has-addons"><span class="tag">IFSC</span><span class="tag is-info">{{branch.ifsc}}</span></div>
+                            </div>
+                            <div class="control">
+                            <div v-show="branch.micr" class="tags has-addons"><span class="tag">MICR</span><span class="tag is-primary">{{branch.micr}}</span></div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    </article>
               </div>
         </div>`,
     methods: {
         searchFilter: function() {
-            this.branches.filter((item)=> {
-                return item.id<10;
+            this.branches.filter((item) => {
+                return item.id < 10;
             });
         }
     }
 });
 const bankList = Vue.component('bank-list', {
-  data: function () {
-    return {
-        title: "Banks List",
-        banks: [
-            { id: 1, name: "Bank of India" },
-            { id: 2, name: "State Bank of India" }
-        ],
-        loading: true,
-        error: "",
-        filterquery: "",
-    }
-  },
-  mounted: function() {
-    this.loading = true;
-    axios.get('../api/index.php')
-        .then((response) => {
-            console.log(response.data.count);
-            this.errror = response.data.count;
-            if (response.data.count > 0) {
-                // $emit('showMessage', response.data.count + ' records found');
-                // this.error = response.data.count + " records found";
-                this.banks = response.data.banks;
-            } else {
-                // $emit('showMessage', 'No records found');
-                // this.error = "No records found";
-            }
-        })
-        .catch((error)=> {
-            // handle error
-            console.log(error);
-        })
-        .then(()=> {
-            // always executed
-            // this.error = "ajax request complete";
-            this.loading = false;
-            // console.log('always executed');
-        });
-  },
-  template: `<div id="banks"><div class="loading" v-show="loading"><img src="loading.svg" /></div>
+    data: function() {
+        return {
+            title: "Banks List",
+            banks: [
+                { id: 1, name: "Bank of India" },
+                { id: 2, name: "State Bank of India" }
+            ],
+            loading: true,
+            error: "",
+            filterquery: "",
+        }
+    },
+    mounted: function() {
+        this.loading = true;
+        axios.get('../api/index.php')
+            .then((response) => {
+                console.log(response.data.count);
+                this.errror = response.data.count;
+                if (response.data.count > 0) {
+                    // $emit('showMessage', response.data.count + ' records found');
+                    // this.error = response.data.count + " records found";
+                    this.banks = response.data.banks;
+                } else {
+                    // $emit('showMessage', 'No records found');
+                    // this.error = "No records found";
+                }
+            })
+            .catch((error) => {
+                // handle error
+                console.log(error);
+            })
+            .then(() => {
+                // always executed
+                // this.error = "ajax request complete";
+                this.loading = false;
+                // console.log('always executed');
+            });
+    },
+    template: `<div id="banks"><div class="loading" v-show="loading"><img src="loading.svg" /></div>
             <nav class="panel">
                 <p class="panel-heading" v-text="title"></p>
                 <div class="panel-block" v-if="error" v-text="error"></div>
@@ -173,19 +206,19 @@ const bankList = Vue.component('bank-list', {
                 </div>
                 
                 <router-link v-if="searchFilter.length>0" :to="{name: 'branches', params: {bankid: bank.id}}" v-for="(bank, index) in searchFilter" v-bind:key="bank.id" class="panel-block ">
-                    <span class="panel-icon" v-text="index">
-                    </span>{{bank.id}} - {{bank.name}}
+                    <span class="panel-icon" v-text="bank.id">
+                    </span> {{bank.name}}
                 </router-link>
                 <router-link v-else :to="{name: 'branches', params: {bankid: bank.id}}" v-for="(bank, index) in banks" v-bind:key="bank.id" class="panel-block ">
-                    <span class="panel-icon" v-text="index">
-                    </span>{{bank.id}} - {{bank.name}}
+                    <span class="panel-icon" v-text="bank.id">
+                    </span> {{bank.name}}
                 </router-link>
             </nav>
-        </div>`, 
+        </div>`,
     computed: {
         searchFilter: function() {
             var regex = new RegExp(this.filterquery, 'gi');
-            let newarray = this.banks.filter((item)=>{ 
+            let newarray = this.banks.filter((item) => {
                 return item.name.match(regex);
             });
             // this.filtered = newarray;
@@ -196,13 +229,13 @@ const bankList = Vue.component('bank-list', {
         }*/
     },
     methods: {
-        
+
     }
 });
 
 const routes = [
     { path: '/', name: 'home', component: bankList },
-    { path: '/branches/:bankid', name:'branches', component: branchList },
+    { path: '/branches/:bankid', name: 'branches', component: branchList },
 ];
 const router = new VueRouter({
     routes // short for `routes: routes`
