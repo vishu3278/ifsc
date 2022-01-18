@@ -9,14 +9,15 @@
 
 		$result = mysqli_query($conn, "SET NAMES utf8mb4");
 		/*$result = mysqli_query($conn, "SELECT * FROM `data` WHERE `bank_id` = '{$_GET['bank_id']}'");*/
-		$result2 = mysqli_query($conn, "SELECT * FROM `data` WHERE `bank_id` = '{$_GET['bank_id']}' AND `state` = '{$_GET['state']}'
-		 -- AND `city` = '{$_GET['city']}' ORDER BY `city`
-		 ");
-
+		/*get states of selected bank*/
+		$result2 = mysqli_query($conn, "SELECT * FROM `data` WHERE `bank_id` = '{$_GET['bank_id']}' AND `state` = '{$_GET['state']}'");
 		$response['count'] = $result2->num_rows;
-		while ($row = mysqli_fetch_array($result2, MYSQLI_ASSOC)) {
-			$response['banks'][] = $row;
+		if(mysqli_num_rows($result2) > 0){
+			while ($row = mysqli_fetch_array($result2, MYSQLI_ASSOC)) {
+				$response['banks'][] = $row;
+			}
 		}
+
 		echo json_encode($response);
 	}else{
 		echo json_encode($response['count']=0, $response['branches']="Wrong input");

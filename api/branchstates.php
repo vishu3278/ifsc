@@ -13,6 +13,11 @@
 		while ($row = mysqli_fetch_array($result2, MYSQLI_ASSOC)) {
 			$response['state'][] = $row['state'];
 		}
+
+		// get logo
+		$logo = mysqli_query($conn, "SELECT `logo` FROM `bank_names` WHERE `id` = '{$_GET['bank_id']}'");
+		$response['logo'] = $logo->fetch_row()[0] ?? '';
+
 		echo json_encode($response);
 	}else{
 		echo json_encode($response['count']=0, $response['branches']="Wrong input");
